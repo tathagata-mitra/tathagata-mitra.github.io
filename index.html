@@ -2,147 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tathagata Mitra | Senior Data Engineer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tathagata Mitra - Data Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Dark Mode Toggle -->
+    <div class="dark-toggle">
+        <input type="checkbox" id="toggle-dark" />
+        <label for="toggle-dark">🌙 Dark Mode</label>
+    </div>
 
-<!-- HERO -->
-<header class="hero">
-    <h1>Tathagata Mitra</h1>
-    <p class="subtitle">
-        Senior Data Engineer building scalable, reliable data platforms across
-        FinTech, Blockchain, and Cloud
-    </p>
-    <p class="location">Bengaluru, India</p>
-</header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="profile.jpg" alt="Tathagata Mitra">
+        <h1>Hello! I'm glad you're visiting my website 👋</h1>
+        <p class="subtitle">Senior Data Engineer & Blockchain Enthusiast</p>
+        <p class="location">Based in India</p>
+    </section>
 
-<!-- ABOUT -->
-<section>
-    <h2>About Me</h2>
-    <p>
-        I am a Senior Data Engineer with 5+ years of experience designing and operating
-        production-grade data platforms across FinTech, Insurance, and FMCG domains.
-        My work focuses on building systems that are not only scalable and performant,
-        but also cost-efficient, reliable, and easy to evolve.
-    </p>
-    <p>
-        Currently at <strong>CoinDCX</strong>, India’s leading crypto exchange, I work on
-        large-scale data pipelines, real-time streaming systems, and blockchain data
-        integrations that power analytics, operations, and user-facing insights.
-        I enjoy solving complex data problems where correctness, latency, and business
-        impact matter.
-    </p>
-</section>
+    <!-- About Me -->
+    <section>
+        <div class="card">
+            <h2>About Me</h2>
+            <p>
+                I'm a data engineer with a passion for building robust ETL pipelines, real-time streaming solutions,
+                and cloud-native data platforms. I thrive on designing systems that scale efficiently and empower business
+                teams with actionable insights.
+            </p>
+        </div>
+    </section>
 
-<!-- HOW I THINK -->
-<section>
-    <h2>How I Think About Data Engineering</h2>
-    <ul>
-        <li>Design data models and pipelines with long-term maintainability in mind.</li>
-        <li>Choose batch vs streaming based on business criticality, not hype.</li>
-        <li>Optimize for cost, reliability, and observability — not just performance.</li>
-        <li>Build modular, testable pipelines using Delta Lake and Medallion Architecture.</li>
-        <li>Treat data platforms as products, not one-time projects.</li>
-    </ul>
-</section>
+    <!-- Experience -->
+    <section>
+        <div class="card">
+            <h2>Experience</h2>
 
-<!-- EXPERIENCE -->
-<section>
-    <h2>Experience Highlights</h2>
+            <h3>Data Engineer | ABC Tech</h3>
+            <span class="duration">2022 - Present</span>
+            <ul>
+                <li>Built robust ETL pipelines using PySpark, SparkSQL, and Databricks on AWS S3.</li>
+                <li>Designed Data Marts improving dashboard performance and reducing I/O overhead.</li>
+                <li>Consolidated overlapping models, reducing 40% of data processing complexity.</li>
+            </ul>
 
-    <h3>CoinDCX — Senior Software Engineer II (Data)</h3>
-    <p class="duration">Nov 2022 – Present</p>
-    <ul>
-        <li>
-            Built and scaled ETL pipelines using PySpark, SparkSQL, and Databricks on AWS S3,
-            delivering clean, analysis-ready datasets for multiple business teams.
-        </li>
-        <li>
-            Designed data marts and consolidated overlapping models, reducing I/O overhead
-            and cutting model complexity by ~40%.
-        </li>
-        <li>
-            Engineered real-time pipelines using Spark Structured Streaming, Kafka, and Delta Lake
-            to monitor markets and generate rule-based event triggers.
-        </li>
-        <li>
-            Built end-to-end blockchain data pipelines tracking holdings across Ethereum,
-            Bitcoin, Tron, Solana, Polkadot, and other chains using Web3.py, REST APIs, and RPCs.
-        </li>
-        <li>
-            Delivered cost-optimization initiatives, including an automated DeFi liquidation
-            system saving ~USD 1,000/month and a custom archival platform reducing DB load by 40%.
-        </li>
-        <li>
-            Developed GenAI-powered POCs including a trading indicator and an internal chatbot
-            using OpenAI APIs, Azure services, and Python.
-        </li>
-        <li>
-            Mentored junior engineers, led BAU initiatives, and interviewed 50+ data engineering
-            candidates as part of hiring efforts.
-        </li>
-    </ul>
+            <h3>Blockchain & AI Engineer | XYZ Labs</h3>
+            <span class="duration">2021 - 2022</span>
+            <ul>
+                <li>Developed smart contract integrations using Web3.py and RPC APIs.</li>
+                <li>Implemented AI-driven data solutions using GPT-4 and Azure AI Search.</li>
+            </ul>
+        </div>
+    </section>
 
-    <h3>Exusia — Senior Analyst (Data Engineering)</h3>
-    <p class="duration">Apr 2022 – Oct 2022</p>
-    <ul>
-        <li>
-            Built Spark pipelines in Scala on Azure Databricks to migrate on-prem data
-            to Azure cloud platforms.
-        </li>
-        <li>
-            Used Azure Data Factory and Blob Storage to orchestrate, cleanse, and optimize data flows.
-        </li>
-        <li>
-            Implemented Delta Lake for performance improvements and storage optimization.
-        </li>
-    </ul>
+    <!-- Skills -->
+    <section>
+        <div class="card">
+            <h2>Skills</h2>
 
-    <h3>Cognizant — Programmer Analyst (Data Engineering)</h3>
-    <p class="duration">Nov 2020 – Apr 2022</p>
-    <ul>
-        <li>
-            Developed PySpark-based ingestion pipelines into Snowflake with Delta-based
-            intermediate layers on AWS S3.
-        </li>
-        <li>
-            Managed scheduling, monitoring, and CI/CD using Tidal, GitLab, and Jenkins.
-        </li>
-        <li>
-            Performed data validation, testing, and production support for critical pipelines.
-        </li>
-    </ul>
-</section>
+            <div class="skill-group">
+                <strong>Data Engineering & Processing</strong><br>
+                <span>Python</span><span>SQL</span><span>PySpark</span><span>SparkSQL</span>
+                <span>Databricks</span><span>Delta Lake</span><span>ETL / ELT</span>
+            </div>
 
-<!-- SKILLS -->
-<section>
-    <h2>Skills</h2>
+            <div class="skill-group">
+                <strong>Streaming & Real-Time</strong><br>
+                <span>Spark Structured Streaming</span><span>Kafka</span>
+            </div>
 
-    <h3>Data Engineering & Processing</h3>
-    <p>Python, SQL, PySpark, SparkSQL, Databricks, Delta Lake, ETL / ELT, Data Modeling</p>
+            <div class="skill-group">
+                <strong>Cloud & Platforms</strong><br>
+                <span>AWS S3</span><span>AWS Lambda</span><span>DynamoDB</span>
+                <span>Azure Data Factory</span><span>Azure Functions</span><span>Snowflake</span>
+            </div>
 
-    <h3>Streaming & Real-Time</h3>
-    <p>Spark Structured Streaming, Kafka, Event-driven pipelines</p>
+            <div class="skill-group">
+                <strong>Blockchain & AI</strong><br>
+                <span>Web3.py</span><span>RPC APIs</span><span>OpenAI / GPT-4</span>
+                <span>Azure AI Search</span><span>Streamlit</span>
+            </div>
+        </div>
+    </section>
 
-    <h3>Cloud & Platforms</h3>
-    <p>AWS (S3, Lambda, DynamoDB), Azure (ADF, Functions, Blob Storage), Snowflake</p>
+    <!-- Resume Download CTA -->
+    <section>
+        <div class="card" style="text-align:center;">
+            <h2>Resume</h2>
+            <p>Download my resume to learn more about my experience and skills.</p>
+            <a href="Tathagata_Mitra_Resume.pdf" class="btn" download>📄 Download Resume</a>
+        </div>
+    </section>
 
-    <h3>Blockchain & AI</h3>
-    <p>Web3.py, REST & RPC APIs, OpenAI / GPT-4, Azure AI Search, Streamlit</p>
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Tathagata Mitra. Built with ❤️. 
+        <br>
+        <a href="mailto:your.email@example.com">your.email@example.com</a>
+    </footer>
 
-    <h3>Engineering Practices</h3>
-    <p>Cost Optimization, Observability, CI/CD, Agile, Mentoring, Hiring</p>
-</section>
-
-<!-- FOOTER -->
-<footer>
-    <p>
-        © 2025 Tathagata Mitra ·
-        <a href="https://www.linkedin.com/in/tathagata-mitra-187721186" target="_blank">LinkedIn</a>
-    </p>
-</footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
