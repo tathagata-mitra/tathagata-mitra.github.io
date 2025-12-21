@@ -1,9 +1,13 @@
-const toggle = document.getElementById('toggle-dark');
+function toggleTheme() {
+    document.body.classList.toggle("dark");
 
-toggle.addEventListener('change', () => {
-    if(toggle.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-    } else {
-        document.documentElement.removeAttribute('data-theme');
+    const isDark = document.body.classList.contains("dark");
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+}
+
+(function initTheme() {
+    const saved = localStorage.getItem("theme");
+    if (saved === "dark") {
+        document.body.classList.add("dark");
     }
-});
+})();
