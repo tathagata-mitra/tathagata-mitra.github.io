@@ -101,7 +101,7 @@ body {
 /* SECTIONS */
 section {
     max-width: 1000px;
-    margin: -40px auto 40px;
+    margin: 0 auto;
     padding: 0 20px;
 }
 
@@ -187,4 +187,23 @@ footer {
 
 .accordion .card {
     margin-top: 12px;
+}
+
+/* SECTION SPACING FIX */
+section {
+    margin-bottom: 32px;
+}
+
+/* Extra spacing between accordions */
+.accordion {
+    margin-bottom: 28px;
+}
+
+/* Prevent visual collision when expanded */
+.accordion[open] .card {
+    margin-top: 16px;
+}
+
+.accordion summary {
+    margin-bottom: 6px;
 }
