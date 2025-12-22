@@ -16,87 +16,92 @@
 <header class="hero">
     <img src="images/ProfilePic.jpeg" alt="Tathagata Mitra">
 
-    <p class="greeting">
-        👋 Hi there — I’m glad you’re here.
-    </p>
+    <p class="greeting">👋 Hi there — I’m glad you’re here.</p>
 
     <h1>Tathagata Mitra</h1>
 
     <p class="headline">
         Senior Data Engineer building scalable, reliable data platforms
-        across FinTech, Blockchain and Cloud
+        across FinTech, Blockchain, and Cloud
     </p>
 
     <div class="cta-group">
         <a href="resume.pdf" class="cta primary" download>Download Resume</a>
-        <a href="https://www.linkedin.com/in/tathagata-mitra-187721186" 
+        <a href="https://www.linkedin.com/in/tathagata-mitra-187721186"
            target="_blank" class="cta secondary">LinkedIn</a>
     </div>
 </header>
 
-<!-- ABOUT -->
+<!-- INTRODUCTION -->
 <section>
-    <div class="card">
-        <h2>Introduction</h2>
-        <p>
-            I am a Senior Data Engineer with 5+ years of experience designing and operating
-            production-grade data systems across FinTech, Insurance, and FMCG domains.
-        </p>
-        <p>
-            My focus is on building data platforms that scale with business growth —
-            systems that are reliable, cost-efficient, observable, and easy to evolve
-            as requirements change.
-        </p>
-    </div>
+    <details class="accordion" open>
+        <summary>Introduction</summary>
+        <div class="card">
+            <p>
+                I am a Senior Data Engineer with 5+ years of experience designing and operating
+                production-grade data systems across FinTech, Insurance, and FMCG domains.
+            </p>
+            <p>
+                My focus is on building data platforms that scale with business growth —
+                systems that are reliable, cost-efficient, observable, and easy to evolve
+                as requirements change.
+            </p>
+        </div>
+    </details>
 </section>
 
 <!-- HOW I THINK -->
 <section>
-    <div class="card">
-        <h2>How I Think About Data Engineering</h2>
-        <ul>
-            <li>Data platforms should be designed for long-term maintainability, not just quick wins.</li>
-            <li>Batch vs streaming is a business decision — not a tooling preference.</li>
-            <li>Cost, reliability, and observability matter as much as performance.</li>
-            <li>Well-modeled data reduces downstream complexity more than any framework.</li>
-            <li>I treat data systems as products owned over time, not one-off projects.</li>
-        </ul>
-    </div>
+    <details class="accordion">
+        <summary>How I Think About Data Engineering</summary>
+        <div class="card">
+            <ul>
+                <li>Design for long-term maintainability, not short-term wins.</li>
+                <li>Batch vs streaming is a business decision, not a tooling preference.</li>
+                <li>Cost, reliability, and observability matter as much as performance.</li>
+                <li>Strong data modeling reduces downstream complexity.</li>
+                <li>I treat data platforms as long-lived products, not one-off projects.</li>
+            </ul>
+        </div>
+    </details>
 </section>
 
 <!-- EXPERIENCE -->
 <section>
-    <div class="card">
-        <h2>Experience Highlights</h2>
+    <details class="accordion">
+        <summary>Experience</summary>
+        <div class="card">
 
-        <h3>CoinDCX — Senior Software Engineer II (Data)</h3>
-        <p class="duration">Nov 2022 – Present · Bengaluru</p>
-        <ul>
-            <li>Built and scaled ETL pipelines using PySpark, SparkSQL, and Databricks on AWS.</li>
-            <li>Designed data marts and consolidated overlapping models, reducing complexity by ~40%.</li>
-            <li>Engineered real-time pipelines with Spark Structured Streaming, Kafka, and Delta Lake.</li>
-            <li>Built multi-chain blockchain data pipelines using Web3.py, REST APIs, and RPCs.</li>
-            <li>Delivered cost-optimization initiatives saving ~$1,000/month and reducing DB load by 40%.</li>
-            <li>Developed GenAI POCs using OpenAI APIs, Azure, and Python.</li>
-            <li>Mentored junior engineers and interviewed 50+ data engineering candidates.</li>
-        </ul>
+            <h3>CoinDCX — Senior Software Engineer II (Data)</h3>
+            <p class="duration">Nov 2022 – Present · Bengaluru</p>
+            <ul>
+                <li>Built and scaled ETL pipelines using PySpark, SparkSQL, and Databricks on AWS.</li>
+                <li>Designed data marts and consolidated overlapping models, reducing complexity by ~40%.</li>
+                <li>Engineered real-time pipelines with Spark Structured Streaming, Kafka, and Delta Lake.</li>
+                <li>Built multi-chain blockchain data pipelines using Web3.py, REST APIs, and RPCs.</li>
+                <li>Delivered cost optimizations saving ~$1,000/month and reducing DB load by 40%.</li>
+                <li>Developed GenAI POCs using OpenAI APIs, Azure, and Python.</li>
+                <li>Mentored junior engineers and interviewed 50+ candidates.</li>
+            </ul>
 
-        <h3>Exusia — Senior Analyst (Data Engineering)</h3>
-        <p class="duration">Apr 2022 – Oct 2022 · Pune</p>
-        <ul>
-            <li>Built Spark pipelines in Scala on Azure Databricks for on-prem to cloud migration.</li>
-            <li>Used Azure Data Factory and Blob Storage for orchestration and transformations.</li>
-            <li>Implemented Delta Lake for performance and storage optimization.</li>
-        </ul>
+            <h3>Exusia — Senior Analyst (Data Engineering)</h3>
+            <p class="duration">Apr 2022 – Oct 2022 · Pune</p>
+            <ul>
+                <li>Built Spark pipelines in Scala on Azure Databricks.</li>
+                <li>Used Azure Data Factory and Blob Storage for orchestration.</li>
+                <li>Implemented Delta Lake for performance and storage optimization.</li>
+            </ul>
 
-        <h3>Cognizant — Programmer Analyst (Data Engineering)</h3>
-        <p class="duration">Nov 2020 – Apr 2022 · Kolkata</p>
-        <ul>
-            <li>Developed PySpark pipelines ingesting data into Snowflake via Delta layers on S3.</li>
-            <li>Handled scheduling, monitoring, CI/CD using Tidal, GitLab, and Jenkins.</li>
-            <li>Performed validation, testing, and production support for critical pipelines.</li>
-        </ul>
-    </div>
+            <h3>Cognizant — Programmer Analyst (Data Engineering)</h3>
+            <p class="duration">Nov 2020 – Apr 2022 · Kolkata</p>
+            <ul>
+                <li>Developed PySpark pipelines ingesting data into Snowflake via Delta layers on S3.</li>
+                <li>Handled scheduling, monitoring, and CI/CD using Tidal, GitLab, and Jenkins.</li>
+                <li>Provided validation, testing, and production support for critical pipelines.</li>
+            </ul>
+
+        </div>
+    </details>
 </section>
 
 <!-- SKILLS -->
@@ -104,28 +109,30 @@
     <details class="accordion">
         <summary>Skills</summary>
         <div class="card">
+
             <div class="skill-group">
                 <strong>Data Engineering</strong><br>
                 <span>Python</span><span>SQL</span><span>PySpark</span><span>SparkSQL</span>
                 <span>Databricks</span><span>Delta Lake</span><span>ETL / ELT</span>
             </div>
-    
+
             <div class="skill-group">
                 <strong>Streaming & Real-Time</strong><br>
                 <span>Spark Structured Streaming</span><span>Kafka</span>
             </div>
-    
+
             <div class="skill-group">
                 <strong>Cloud & Platforms</strong><br>
                 <span>AWS</span><span>Azure</span><span>Snowflake</span>
                 <span>Azure Data Factory</span><span>Lambda</span>
             </div>
-    
+
             <div class="skill-group">
                 <strong>Blockchain & AI</strong><br>
                 <span>Web3.py</span><span>RPC APIs</span><span>OpenAI / GPT-4</span>
                 <span>Streamlit</span>
             </div>
+
         </div>
     </details>
 </section>
@@ -135,21 +142,13 @@
     <details class="accordion">
         <summary>Education</summary>
         <div class="card">
-            <h3>Indian Institute of Technology (IIT), Patna</h3>
-            <p class="duration">Master of Technology (M.Tech) — Big Data & Blockchain · 2023 – 2025</p>
-            <ul>
-                <li>Strong foundation in Big Data systems, distributed computing, and blockchain technologies.</li>
-                <li>Focused on scalable data processing, modern data architectures, and applied blockchain use cases.</li>
-                <li>Graduated with a CGPA of <strong>8.97 / 10</strong>.</li>
-            </ul>
-    
-            <h3>Savitribai Phule Pune University (SPPU)</h3>
-            <p class="duration">Bachelor of Engineering — Electronics & Telecommunication · 2016 – 2020</p>
-            <ul>
-                <li>Built strong analytical and problem-solving foundations through core engineering coursework.</li>
-                <li>Consistently high academic performance with a CGPA of <strong>9.35 / 10</strong>.</li>
-                <li>University Rank 10 and Department Rank 1 during the first year of engineering.</li>
-            </ul>
+            <h3>IIT Patna</h3>
+            <p class="duration">M.Tech — Big Data & Blockchain · 2023 – 2025</p>
+            <p>CGPA: <strong>8.97 / 10</strong></p>
+
+            <h3>Savitribai Phule Pune University</h3>
+            <p class="duration">B.E — Electronics & Telecommunication · 2016 – 2020</p>
+            <p>CGPA: <strong>9.35 / 10</strong> · University Rank 10 · Department Rank 1</p>
         </div>
     </details>
 </section>
@@ -159,66 +158,30 @@
     <details class="accordion">
         <summary>Certifications</summary>
         <div class="card">
+
             <h3>Databricks Certified Data Engineer – Professional</h3>
-            <p class="duration">Issued: April 2025 · Valid until: April 2027</p>
-            <p>
-                Advanced certification demonstrating expertise in building, optimizing, and
-                maintaining production-grade data pipelines using Databricks, Spark, and Delta Lake.
-            </p>
-            <p>
-                <a href="https://credentials.databricks.com/3b45af8d-bdda-4a18-b4d3-fbe8bf6f3958#acc.vq5o6dk9" target="_blank">
-                    View / Verify Certificate →
-                </a>
-            </p>
-    
+            <p class="duration">Apr 2025 – Apr 2027</p>
+            <a href="https://credentials.databricks.com/3b45af8d-bdda-4a18-b4d3-fbe8bf6f3958#acc.vq5o6dk9"
+               target="_blank">View / Verify Certificate →</a>
+
             <h3>SQL (Intermediate)</h3>
-            <p class="duration">Certified Proficiency</p>
-            <p>
-                Certification validating strong working knowledge of SQL for data analysis,
-                transformation, and querying across large datasets.
-            </p>
+            <p>Certified proficiency in SQL for analytics and transformation.</p>
+
         </div>
     </details>
 </section>
-    
-<!-- AWARDS & RECOGNITIONS -->
+
+<!-- AWARDS -->
 <section>
     <details class="accordion">
-        <summary>Awards & Recognitions</summary>
+        <summary>Awards & Recognition</summary>
         <div class="card">
-            <h3>Whale of the Quarter — CoinDCX</h3>
-            <p class="duration">Jan 2023 – Mar 2023</p>
-            <p>
-                Awarded for outstanding performance and creating a measurable impact as a culture
-                champion. Recognized for ownership, execution quality, and contribution to
-                high-impact data initiatives.
-            </p>
-    
-            <h3>Moon Landers — Team Award</h3>
-            <p class="duration">CoinDCX</p>
-            <p>
-                Team recognition for collaborative delivery of critical initiatives under tight
-                timelines, demonstrating strong cross-functional coordination and execution.
-            </p>
-    
-            <h3>Best Paper Award — International Conference</h3>
-            <p class="duration">3rd International Conference on Ideas, Innovations, Impact in Science and Technology</p>
-            <p>
-                Awarded for research contribution and presentation excellence, highlighting
-                analytical rigor and applied problem-solving capabilities.
-            </p>
-    
-            <h3>Always Striving, Never Settling — Cognizant</h3>
-            <p class="duration">Nov 2021</p>
-            <p>
-                Recognized for consistent performance, reliability, and on-time delivery of
-                critical milestones in enterprise data engineering projects.
-            </p>
-    
-            <h3>Academic Honors</h3>
             <ul>
-                <li>University Rank 10 — First Year of Engineering</li>
-                <li>Department Rank 1 — Electronics & Telecommunication Engineering</li>
+                <li><strong>Whale of the Quarter</strong> — CoinDCX</li>
+                <li><strong>Moon Landers</strong> — Team Award, CoinDCX</li>
+                <li><strong>Best Paper Award</strong> — International Conference</li>
+                <li><strong>Always Striving, Never Settling</strong> — Cognizant</li>
+                <li>University Rank 10 · Department Rank 1</li>
             </ul>
         </div>
     </details>
