@@ -222,7 +222,3 @@ footer {
 .hero {
     margin-bottom: 48px;
 }
-
-section:first-of-type {
-    padding-top: 0;
-}
