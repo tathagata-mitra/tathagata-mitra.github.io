@@ -114,6 +114,10 @@ section {
     padding: 0 20px;
 }
 
+section:first-of-type {
+    padding-top: 0;
+}
+
 /* =======================
    CARD
 ======================= */
