@@ -214,3 +214,11 @@ footer {
     background: #020617;
     color: #94a3b8;
 }
+
+.hero {
+    margin-bottom: 48px;
+}
+
+section:first-of-type {
+    padding-top: 0;
+}
